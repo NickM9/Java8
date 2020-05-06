@@ -1,0 +1,14 @@
+{
+  "title": "Avengers",
+  "year": 2012,
+  "genres": [
+    "Action",
+    "Science fiction"
+  ],
+  "duration": "PT124M",
+  "actors": [
+    "Robert Downey Jr.",
+    "Scarlett Johansson",
+    "Chris Evans"
+  ]
+}
