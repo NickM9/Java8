@@ -54,39 +54,5 @@ public class Test {
         sqlTaskService.getAllActorsInGenre(genre);
         java8TaskService.getAllActorsInGenre(genre);
 
-//         РАБОТАЕТ
-//        Path root = Paths.get("D:\\MyFiles\\Java Programs\\movies");
-//        List<Path> jsonPaths = Files.walk(root)
-//                .filter(Files::isRegularFile)
-//                .filter(path -> path.toString().endsWith(".json"))
-//                .collect(Collectors.toList());
-//
-//        ObjectMapper objectMapper = new ObjectMapper();
-
-//       List<Movie> movies = jsonPaths.stream()
-//                .map(Path::toFile)
-//                .map(file -> {
-//                    try {
-//                        return objectMapper.readValue(file, Movie.class);
-//                    } catch (IOException e) {
-//                        e.printStackTrace();
-//                    }
-//                    return null;
-//                })
-//                .collect(Collectors.toList());
-
-//        List<Movie> movies = new ArrayList<>();
-//        for (Path path : jsonPaths){
-//            File file = path.toFile();
-//            System.out.println(file);
-//            Movie movie = objectMapper.readValue(file, Movie.class);
-//            movies.add(movie);
-//        }
-//
-//       movies.stream().forEach(System.out::println);
-
-
-
-
     }
 }
